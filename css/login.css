@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url(../img/pexels-photo-247786.jpeg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #103110;
+    padding: 20px 50px 20px 50px;
+}
+.btn-valid{
+    background-color: #157715 !important;
+    color: #fff!important;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: 550;
+}
+.btn-valid:hover{
+    border: 1px solid white;
+    color:rgb(29, 28, 28)!important;
+}
+/* .opacity{
+    opacity: 0.5;
+    height: 200px;
+    width: 200px;
+} */
+.titre{
+    font-weight: 450;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left!important;
+    padding-bottom: 5px;
+}
+input{
+    border-bottom: 1px solid rgb(253, 252, 252);
+    background-color: #5c9f5c;
+    color: white;
+    font-size: 1.1rem;
+}
+/* .view{
+    display: none;
+} */
+form{
+    position: relative;
+    color: white!important;
+}
+.erreur{
+    background-color: rgb(235, 29, 29);
+}
+
+.erreur,.succes,.essai{
+    padding: 15px;
+    color: white;
+    font-weight: 650;
+    font-size: 0.9rem;
+    border-radius: 10px;
+ 
+}
+.succes{
+    background-color: rgb(4, 75, 180);
+    color:white;
+}
+form img{
+    height: 90px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    background-color: #1c3a52;
+    border-radius: 50%;
+    padding: 20px;
+}
+h3{
+    color:white;
+    margin-bottom: 2rem;
+}
+.view{
+    text-align: left!important;
+    /* padding: 10px;
+    background-color: rgb(158, 3, 3);
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 7px; */
+}

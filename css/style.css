@@ -1,0 +1,158 @@
+body{
+   background-image: url("../img/water-drink-detox-detox-water-122444.jpeg");
+    background-attachment: fixed;
+    height: 100%;
+    /* background-repeat: no-repeat; */
+ }
+ 
+     
+.modal-body h4{
+    font-weight: 550;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.btn_yes{
+    color: white!important;
+    background-color: rgb(1, 105, 48)!important;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.btn_no{
+    color: white!important;
+    background-color: rgb(77, 13, 2)!important;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.relative{
+    position: relative!important;
+}
+.etoile{
+    color: red;
+    font-size: 1rem;
+}
+.body{
+    padding-top: 5rem;  
+    position: relative;  
+}
+.titre{
+    color: #05ff05;
+    font-weight: 650;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.d-flex{
+    display: flex!important;
+    flex-wrap: wrap;
+}
+.long{
+    width: 350px;
+    
+}
+.verysmall{
+    width: 90px;
+}
+.small{
+    width: 170px;  
+}
+.txt_color{
+    color: rgb(217, 224, 248);
+font-size: 1rem;
+font-weight: 500;
+}
+.medecins{
+    margin: 1rem 0 2rem 1rem;
+    
+}
+.add{
+    height:40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.profil{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    border-radius: 20px;
+    border: 2px solid gray;
+    height: 150px;
+}
+.txt_red{
+    color: rgb(217, 224, 248);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.row{
+    margin-right: 0px!important;
+margin-left: 0px!important;
+}
+.trait{
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid rgb(112, 111, 111);
+}
+/* textarea.form-control {
+    height: 100px!important;
+    width: 300px!important;
+} */
+.form-control,select{
+    /* color: #f5f0f0!important;
+    background-color: #002c2d!important;
+    background-clip: padding-box!important;
+    border: 2px solid #898b8c!important; */
+}
+.btn_send{
+    z-index: 35;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #059e43!important;
+    font-weight: 550;
+    font-size: 0.89rem;
+    color: white;
+}
+.btn_modal{
+    z-index: 35;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    background-color: #112519!important;
+    font-weight: 550;
+    font-size: 0.89rem;
+    color: white;
+}
+.btn_send:hover{
+    /* border: 2px solid #001314; */
+    border-radius: 5px;
+    /* background-color: #007200!important; */
+    color: #272727;
+}
+.tb-head{
+    background-color: rgb(240, 240, 240)!important;
+}
+.tb-head th{
+    font-size: 1rem!important;
+    font-weight: 550!important;
+    color: rgb(34, 34, 34);
+    border-bottom: 1px solid #000!important;
+}
+td{
+    font-size: 0.968rem!important;
+    font-weight: 550!important;
+    color: black;
+}
+.m-per{
+    margin-left: 2rem;
+    margin-right: 2rem;;
+}
+
+.abs{
+    position: absolute!important;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
